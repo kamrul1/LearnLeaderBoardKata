@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using LearnLearderBoardKata.Library;
 
 namespace LearnLearderBoardKata.Library;
@@ -15,9 +16,18 @@ public class LeaderBoard
 
     public List<PlayerRank> GetRank()
     {
-        return new List<PlayerRank>()
+        var _sortedPlayers = _players.OrderByDescending(x => x.score);
+
+        var _playerRanks = new List<PlayerRank>();
+
+        foreach (var _player in _sortedPlayers)
         {
-            new PlayerRank() {Name = "Joe", Position = 1, Score = 122}
-        };
+            var x = 1;
+            _playerRanks.Add(new PlayerRank() {Name = _player.name, Position = x, Score = _player.score});
+            x++;
+        }
+
+        return _playerRanks;
+
     }
 }

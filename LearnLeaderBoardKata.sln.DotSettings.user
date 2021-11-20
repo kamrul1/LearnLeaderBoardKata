@@ -1,9 +1,6 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=2c9fb33c_002D5c1e_002D4f05_002D9bfb_002D34a3586f6ab4/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ShouldReturnPlayerByRankOrder" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=5ca182ee_002Dba38_002D4057_002Db1d9_002D4f1d1038481b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ShouldReturnPlayerByRankOrder" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
-    &lt;TestId&gt;xUnit::8C56B19C-D630-4AA4-80EE-4A995B0E714A::net6.0::LeaderBoardTests.ShouldReturnPlayerByRankOrder&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::8C56B19C-D630-4AA4-80EE-4A995B0E714A::net6.0::LearnLeaderBoardKata.Library.Tests.LeaderBoardTests.ShouldReturnPlayerByRankOrder&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
-&lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ff00355c_002D8a2a_002D48a2_002D8aab_002D8befa2ca66ad/@EntryIndexedValue">&lt;SessionState ContinuousTestingIsOn="True" ContinuousTestingMode="1" IsActive="True" Name="All tests from Solution" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;Solution /&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
